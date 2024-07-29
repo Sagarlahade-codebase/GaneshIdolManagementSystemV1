@@ -1,0 +1,191 @@
+/*footer*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.dis {
+    display: flex;
+    /*align-items: center;*/
+    float:left;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 15px;
+
+}
+.dis a {
+    width: 46px;
+    height: 46px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: .6s;
+    margin-left: 10px;
+    text-align: left;
+}
+.dis a i {
+    font-size: 24px;
+    padding: 10px 12px;
+    color: white;
+}
+ .dis .icon1:hover .fa.fa-facebook.icon{
+    color: #3b5999;
+  }
+  .dis .icon2:hover .fa.fa-twitter.icon{
+    color:  #00acee;
+  }
+  .dis .icon3:hover .fa.fa-instagram.icon{
+    color: #d30707;
+    
+  }
+  .dis .icon4:hover .fa.fa-linkedin.icon{
+    color: #0e76a8;
+  }
+
+.dis .icon1{
+    background: #3b5999;
+}
+.dis .icon2{
+    background: #00acee;
+}
+.dis .icon3{
+    background: #d30707;
+}
+.dis .icon4{
+    background: #0e76a8;
+}
+.dis a:hover {
+    background: white;
+  }
+footer p {
+    color: #999;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.footer-p1 {
+    color: #999;
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+    width: 80%;
+}
+
+.footer-p{
+    width: 80%;
+}
+
+footer h2 {
+    font-size: 18px;
+}
+.fc {
+
+    padding: 80px;
+    background-color:rgb(19, 18, 18);
+}
+
+.segment-one h3 {
+    color : #fff;
+    font-weight: bold;
+    /*letter-spacing: 1px;*/
+}
+
+.segment-two h2{
+    color : #fff;
+    text-transform: uppercase;
+}
+.segment-two ul,
+.segment-three ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-three ul {
+        line-height: 40px;
+
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+.segment-two ul li a:hover,
+.segment-three ul li a:hover{
+    color: white;
+}
+.segment-two ul li a,
+.segment-three ul li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+    text-decoration: none;
+}
+.segment-three h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+.segment-four h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+.segment-four a{
+    color: white;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
+.Subscribe-btn{
+    margin-top: 6px;
+    color: white;
+    background-color: red;
+    opacity: 0.7;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.Subscribe-btn:hover{
+    color: white;
+    background-color: red;
+    opacity: 1;
+    cursor: pointer;
+}
+  /* footer icons */
+  .icon-parent2{
+    display: block;
+    text-align: right;
+}
+@media only screen and (min-width : 768px) and (max-width:991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+    .footer-p{
+        width: 100%;
+    }
+    .segment-one ,
+    .segment-two ,
+    .segment-three ,
+    .segment-four{
+        margin: 20px 10px; 
+        
+    }
+}
+/*footer*/
+
+@media only screen and (max-width : 576px) {
+      
+    .color-3{
+        margin-top: 15px;
+    }
+    .fc{
+        padding: 15px;
+    }
+    .footer-p{
+        width: 100%;
+    }
+    .segment-one ,
+    .segment-two ,
+    .segment-three ,
+    .segment-four{
+        margin: 28px 18px 13px 18px;
+    }
+}
+
